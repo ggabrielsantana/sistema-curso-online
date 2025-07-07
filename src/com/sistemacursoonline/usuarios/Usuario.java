@@ -24,7 +24,7 @@ public abstract class Usuario {
         return email;
     }
 
-    public abstract boolean criarCurso();
+    public abstract boolean podeCriarCurso();
 
     public abstract boolean podeAssistirAula();
 }

@@ -9,7 +9,7 @@ import com.sistemacursoonline.usuarios.Instrutor;
 
 public class Curso {
     
-    private String titulo;
+    String titulo;
     private Instrutor instrutor;
     private LocalDateTime dataDeCriacao;
     private int numeroDeAulas;

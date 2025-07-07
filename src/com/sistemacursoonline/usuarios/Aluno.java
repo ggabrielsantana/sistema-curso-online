@@ -18,8 +18,27 @@ public class Aluno extends Usuario {
         this.notaMedia = notaMedia;
     }
 
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public String getDataDeNascimento() {
+        return dataDeNascimento;
+    }
+
+    public double getNotaMedia() { 
+        return notaMedia; }
+
     @Override
-    public boolean criarCurso() { return false; }
+    public boolean podeCriarCurso() { return false; }
 
     @Override
     public boolean podeAssistirAula() { return true; }
