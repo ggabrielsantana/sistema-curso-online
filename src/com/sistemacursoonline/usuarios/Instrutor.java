@@ -24,9 +24,9 @@ public class Instrutor extends Usuario {
     }
 
     @Override
-    public boolean assistirAula() {
+    public boolean podeAssistirAula() {
         // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'assistirAula'");
+        throw new UnsupportedOperationException("Unimplemented method 'podeAssistirAula'");
     }
     
 }

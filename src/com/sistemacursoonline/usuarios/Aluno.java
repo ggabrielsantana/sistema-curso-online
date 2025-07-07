@@ -22,6 +22,6 @@ public class Aluno extends Usuario {
     public boolean criarCurso() { return false; }
 
     @Override
-    public boolean assistirAula() { return true; }
+    public boolean podeAssistirAula() { return true; }
 
 }

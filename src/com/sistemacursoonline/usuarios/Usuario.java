@@ -13,6 +13,6 @@ public abstract class Usuario {
     }
 
     public abstract boolean criarCurso();
-    public abstract boolean assistirAula();
+    public abstract boolean podeAssistirAula();
 
 }
