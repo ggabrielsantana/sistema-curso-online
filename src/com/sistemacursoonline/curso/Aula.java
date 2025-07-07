@@ -3,6 +3,8 @@ package com.sistemacursoonline.curso;
 import java.time.Duration;
 import java.util.Objects;
 
+import com.sistemacursoonline.usuarios.Aluno;
+
 public class Aula {
 
     private String titulo;
@@ -13,10 +15,6 @@ public class Aula {
         this.titulo = titulo;
         this.descricao = descricao;
         this.duracao = duracao;
-    }
-
-    public void assistirAula() {
-        //colocar o aluno aqui para confirmar se le está vendo a aula
     }
 
     public String getTitulo() {
@@ -31,13 +29,19 @@ public class Aula {
         return duracao;
     }
 
+    public void assistirAula(Aluno aluno) {
+        System.out.println(aluno.getNome() + "assistiu à aula de " + this);
+    }
+
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (!(obj instanceof Aula)) return false;
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Aula))
+            return false;
         Aula other = (Aula) obj;
-        return Objects.equals(titulo, other.titulo) && Objects.equals(descricao, other.descricao) 
-        && Objects.equals(duracao, other.duracao);
+        return Objects.equals(titulo, other.titulo) && Objects.equals(descricao, other.descricao)
+                && Objects.equals(duracao, other.duracao);
     }
 
     @Override

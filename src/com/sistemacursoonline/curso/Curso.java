@@ -9,14 +9,14 @@ public class Curso {
     private String titulo;
     private Instrutor instrutor;
     private LocalDateTime dataDeCriacao;
-    private int numeroAulas;
+    private int numeroDeAulas;
 
     public Curso(String titulo, Instrutor instrutor, LocalDateTime dataDeCriacao, 
-    int numeroAulas) {
+    int numeroDeAulas) {
         this.titulo = titulo;
         this.instrutor = instrutor;
         this.dataDeCriacao = dataDeCriacao;
-        this.numeroAulas = numeroAulas;
+        this.numeroDeAulas = numeroDeAulas;
     }
 
 }
