@@ -12,6 +12,7 @@ public abstract class Usuario {
         this.email = email;
     }
 
-    // Adicionar métodos
+    public abstract boolean criarCurso();
+    public abstract boolean assistirAula();
 
 }

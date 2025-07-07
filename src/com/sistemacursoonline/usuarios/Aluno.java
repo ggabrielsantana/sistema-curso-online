@@ -17,9 +17,11 @@ public class Aluno extends Usuario {
         this.dataDeNascimento = dataDeNascimento;
         this.notaMedia = notaMedia;
     }
-    
-    public void inscrever() {
-        // Composição
-    }
+
+    @Override
+    public boolean criarCurso() { return false; }
+
+    @Override
+    public boolean assistirAula() { return true; }
 
 }

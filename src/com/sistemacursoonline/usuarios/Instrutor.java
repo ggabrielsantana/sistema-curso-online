@@ -16,5 +16,17 @@ public class Instrutor extends Usuario {
         this.bio = bio;
 
     }
+
+    @Override
+    public boolean criarCurso() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'criarCurso'");
+    }
+
+    @Override
+    public boolean assistirAula() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'assistirAula'");
+    }
     
 }
