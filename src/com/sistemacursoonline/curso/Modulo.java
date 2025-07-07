@@ -1,14 +1,16 @@
 package com.sistemacursoonline.curso;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class Modulo {
     
     private String titulo;
-    private List<Aula> aulas = new ArrayList<>();
+    private Set<Aula> aulas = new LinkedHashSet<>();
 
     public Modulo(String titulo) {
         this.titulo = titulo;
     }
+
+
 }
