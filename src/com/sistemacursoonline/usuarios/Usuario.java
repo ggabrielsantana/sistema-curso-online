@@ -1,18 +1,30 @@
 package com.sistemacursoonline.usuarios;
 
 public abstract class Usuario {
-    
+
     protected int id;
     protected String nome;
     protected String email;
 
-    public Usuario( int id, String nome, String email) {
+    public Usuario(int id, String nome, String email) {
         this.id = id;
         this.nome = nome;
         this.email = email;
     }
 
-    public abstract boolean criarCurso();
-    public abstract boolean podeAssistirAula();
+    public int getId() {
+        return id;
+    }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public abstract boolean criarCurso();
+
+    public abstract boolean podeAssistirAula();
 }

@@ -22,4 +22,9 @@ public class Modulo {
         return new ArrayList<>(aulas);
     }
 
+    public void add(Modulo modulo) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
+
 }
