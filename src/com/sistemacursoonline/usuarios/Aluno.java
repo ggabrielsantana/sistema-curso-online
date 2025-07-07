@@ -6,14 +6,16 @@ public class Aluno extends Usuario {
     private String telefone;
     private String endereco;
     private String dataDeNascimento;
+    private double notaMedia;
 
     public Aluno(int id, String nome, String email, String matricula, String telefone, 
-    String endereco, String dataDeNascimento) {
+    String endereco, String dataDeNascimento, double notaMedia) {
         super(id, nome, email);
         this.matricula = matricula;
         this.telefone = telefone;
         this.endereco = endereco;
         this.dataDeNascimento = dataDeNascimento;
+        this.notaMedia = notaMedia;
     }
     
     public void inscrever() {
