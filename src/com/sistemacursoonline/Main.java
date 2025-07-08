@@ -1,5 +1,6 @@
 package com.sistemacursoonline;
 
+import com.sistemacursoonline.curso.Curso;
 import com.sistemacursoonline.usuarios.Instrutor;
 import com.sistemacursoonline.usuarios.Usuario;
 
@@ -11,6 +12,10 @@ public class Main {
         "rofessor de Informática – Escola Técnica Estadual", 
         "Professor de Tecnologia da Informação com experiência no ensino técnico e superior");
 
-        System.out.println(instrutor1.getNome());
+        if (instrutor1.podeCriarCurso() && instrutor1 instanceof Instrutor) {
+            Curso c = ((Instrutor) instrutor1).adicionarCurso("Banco de Dados1");
+
+            c.adicionarModulo("null");
+        }
     }
 }
