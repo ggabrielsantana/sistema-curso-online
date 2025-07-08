@@ -8,7 +8,7 @@ import com.sistemacursoonline.usuarios.Aluno;
 import com.sistemacursoonline.usuarios.Instrutor;
 
 public class Curso {
-    
+
     String titulo;
     private Instrutor instrutor;
     private LocalDateTime dataDeCriacao;
@@ -53,5 +53,4 @@ public class Curso {
             alunos.add(aluno);
         }
     }
-
 }
