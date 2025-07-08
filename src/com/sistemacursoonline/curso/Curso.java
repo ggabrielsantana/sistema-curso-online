@@ -14,6 +14,7 @@ public class Curso {
     private LocalDateTime dataDeCriacao;
     private int numeroDeAulas;
     private List<Modulo> modulos = new ArrayList<>();
+    private List<Aluno> alunos = new ArrayList<>();
 
     public Curso(String titulo, Instrutor instrutor) {
         this.titulo = titulo;
@@ -24,6 +25,10 @@ public class Curso {
 
     public String getTitulo() {
         return titulo;
+    }
+
+    public List<Aluno> getAlunos() {
+        return alunos;
     }
 
     public Instrutor getInstrutor() {
@@ -43,8 +48,10 @@ public class Curso {
         numeroDeAulas += modulo.getAulas().size();
     }
 
-    public void inscreverAluno(Aluno aluno) {
-        
+    public void adicionarAluno(Aluno aluno) {
+        if (!alunos.contains(aluno)) {
+            alunos.add(aluno);
+        }
     }
 
 }
