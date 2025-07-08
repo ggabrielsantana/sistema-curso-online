@@ -36,10 +36,14 @@ public class Instrutor extends Usuario {
     }
 
     @Override
-    public boolean podeCriarCurso() { return true; }
+    public boolean podeCriarCurso() {
+        return true;
+    }
 
     @Override
-    public boolean podeAssistirAula() { return true; }
+    public boolean podeAssistirAula() {
+        return true;
+    }
 
     public Curso adicionarCurso(String titulo) {
         return new Curso(titulo, this);
