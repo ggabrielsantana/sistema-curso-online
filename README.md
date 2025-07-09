@@ -4,7 +4,7 @@ Este repositório contém um sistema simplificado de cursos online, desenvolvido
 
 ---
 
-## 📋 Sumário
+## Sumário
 
 * [Descrição](#descrição)
 * [Funcionalidades](#funcionalidades)
