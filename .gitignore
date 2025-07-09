@@ -1,0 +1,35 @@
+# Arquivos de classe Java
+*.class
+
+# Pastas de saída/compilação (Java padrão, Eclipse, IntelliJ, VSCode)
+out/
+bin/
+build/
+target/
+
+# Arquivos de IDE e configurações
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Dependências locais (se usar Maven ou Gradle)
+# Para Maven:
+.settings/
+target/
+# Para Gradle:
+.gradle/
+build/
+
+# Mac e Windows
+.DS_Store
+Thumbs.db
