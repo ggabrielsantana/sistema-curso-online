@@ -30,7 +30,7 @@ public class Aula {
     }
 
     public void assistirAula(Aluno aluno) {
-        System.out.println(aluno.getNome() + "assistiu à aula de " + this);
+        System.out.println("Alno(a) cadastrado e assitindo à aula de " + titulo);
     }
 
     @Override

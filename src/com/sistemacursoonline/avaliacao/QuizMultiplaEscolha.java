@@ -1,16 +1,18 @@
 package com.sistemacursoonline.avaliacao;
 
+import java.util.List;
+
 public class QuizMultiplaEscolha extends Quiz {
 
-    public QuizMultiplaEscolha(String pergunta, String respostaCorreta) {
+    private List<String> opcoes;
+
+    public QuizMultiplaEscolha(String pergunta, List<String> opcoes, String respostaCorreta) {
         super(pergunta, respostaCorreta);
-        //TODO Auto-generated constructor stub
+        this.opcoes = opcoes;
     }
 
     @Override
     public boolean avaliar(String resposta) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'avaliar'");
+        return respostaCoreta.equals(resposta);
     }
-    
 }

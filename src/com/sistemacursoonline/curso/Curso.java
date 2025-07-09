@@ -28,7 +28,11 @@ public class Curso {
     }
 
     public List<Aluno> getAlunos() {
-        return alunos;
+        return new ArrayList<>(alunos);
+    }
+    
+    public List<Modulo> getModulos() {
+        return modulos;
     }
 
     public Instrutor getInstrutor() {

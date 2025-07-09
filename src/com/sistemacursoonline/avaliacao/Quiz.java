@@ -9,5 +9,5 @@ public abstract class Quiz implements Avaliavel {
         this.pergunta = pergunta;
         this.respostaCoreta = respostaCorreta;
     }
-    
+
 }

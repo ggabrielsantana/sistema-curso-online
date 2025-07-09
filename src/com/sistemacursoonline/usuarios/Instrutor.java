@@ -49,5 +49,4 @@ public class Instrutor extends Usuario {
         return new Curso(titulo, this);
 
     }
-
 }
